@@ -1,0 +1,10 @@
+step 3: Open Claude, follow the instruction in the MCP
+Configuration file(mcp_example.json). Use rave Search. GitHub.
+Puppeteer. Filesystem. Sequential Thinking and Notion.
+
+Now, follow the instructions below to complete a small task for
+each plugin.
+
+fit Al training H1#Y pdf2image !
+
+

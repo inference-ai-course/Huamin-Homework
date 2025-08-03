@@ -1,0 +1,276 @@
+ML Engineering for the
+Generative Al Era
+
+Presented by
+
+
+
+John Yue
+
+CEO & Co-founder of Inference.ai, making high-performance
+GPU compute accessible to Al teams
+
+Former founder of Bifrost Cloud, focused on decentralized
+cloud infrastructure
+
+Background in Computer Science from University of Waterloo
+7+ years of experience building infrastructure for Al and
+cloud-native applications
+
+Passionate about democratizing Al access and empowering
+the next generation of ML engineers
+
+UNIVERSITY OF §
+el e EWATERLOO @Inference.al
+
+
+Instructor Team
+
+VP of Engineering at Robin Al currently
+
+Former Head of ML Engineering at Cash App, grew
+team from 30 to 150+ engineers
+
+15+ years in ML engineering across Google, Meta,
+CashApp, and Niantic
+
+Passionate about mentorship, interdisciplinary
+learning, and building real-world Al systems
+
+D \
+
+b
+5
+
+E) cashapp OV Meta G al %NIANNC
+
+e Al Engineer at Blueberry Al, building 3D asset
+management tools using generative models
+
+e Co-founder of ScholarAl, an Al tutoring platform
+
+e MIDS (Master's in Interdisciplinary Data Science) from
+Duke University
+
+JRMorgan Duke
+
+
+
+2-3 Hands-On Projects
+Project 1: Build a Voice Agent Al Assistant from Scratch
+
+° Time Commitment: 5—10 hours/week
+° Duration: 10 weeks
+
+Project 2: Train a Large Language Model from Scratch
+
+e Requires access to an 80GB GPU
+e Time Commitment: 20—30 hours/week
+
+Learning Prerequisite:
+Basic Python knowledge is sufficient (approximately sophomore level or above)
+
+Optional Project 3:
+Choose your own project based on your background and interests
+
+Job-Oriented Advice:
+
+e If you're aiming for a job, it's highly recommended to complete both Project 1 and 2
+e  Completing Project 1 gives you an 80%+ chance of landing interviews
+e Completing both Projects 1 and 2 gives you a 70-80%+ chance of securing an Al role
+
+Career Support:
+The course guarantees 5—6 Al job referrals and interview opportunities
+Recent graduates typically earn $140K-160K USD/year
+
+
+
+RECRUITING PARTNERSHIPS WITH LEADING Al
+COMPANIES
+
+We work directly with companies actively hiring GenAl talent:
+e Waymo
+¢ Quintet Al
+* Boson Al
+¢ Intently Al
+o Al+
+
+WHAT THIS MEANS FOR YOU
+
+» Warm intros to hiring managers
+
+* Demo Day visibility with real recruiters
+
+* Project-to-role alignment — we build curriculum based on the
+skills our partners are hiring for
+
+« Faster paths to offers through trusted referrals
+
+W et 12 BosonA|
+
+WAYMO
+
+
+Unlock These Career Paths
+
+ML Infrastructure / Data
+Engineer
+
+Al / LLM Engineer
+
+Companies hiring: Inflection Al,
+AnyScale, TrustLab
+Salary range: $120K — $350K
+
+Companies hiring: SynergisticlT,
+The Fountain Group
+Salary range: $120K — $150K
+
+CUDA / GPU Programming
+Engineer
+
+Al Agent Developer
+
+Companies hiring: ScaleAl,
+Cerebras Systems
+Salary range: $195K — $240K
+
+Companies hiring: AnyScale Al
+Cerebras
+
+
+
+Week 1-2 AGENT FOUNDATIONS & WORKFLOW AUTOMATION
+
+Weel 3-4  VOICE, TEXT, AND DATA INTERFACES
+
+Course Structure
+
+\Weel 5-6  RETRIEVAL & SEARCH SYSTEMS
+
+Week-by-Week — Learn, Build, Deploy
+
+Weelt 7-8  FUNCTION CALLING & FINE-TUNING
+
+Weelc 9-10) CAPSTONE BUILD & DEMO DAY
+
+
+A Direct Path to Offers
+
+» Present your final project at Demo Day to real hiring
+managers, Al founders, and engineers
+
+« Get warm intros, real feedback, and interview
+opportunities
+
+A Portfolio That Gets You Hired
+
+« Build real GenAl systems: voice agents, RAG,
+summarizers, fine-tuning
+
+* Your portfolio will showcase production-grade ML
+projects, not just coursework
+
+A Network That Stays With You
+
+« Join a tight-knit community of engineers, mentors, and
+alumni
+
+« Network with FAANG ML instructors, startup founders,
+and peer builders
+
+
+
+Why Join This Al Practicum Course?
+
+1.  Train with Ultra-High-End Hardware: NVIDIA A100/H100 GPUs
+Each machine costs over $350,000 USD!
+Employers are desperate for talent with hands-on experience on top-tier GPUs.
+You'll log 300+ hours on elite hardware—far beyond your competition in the job market.
+
+2. Showcase-Ready GitHub Portfolio + References
+Build real, production-level projects to display on GitHub and strengthen your job applications to top Al companies.
+
+3. Direct Path to Silicon Valley Offers
+We guarantee 5+ interview referrals at leading Silicon Valley Al companies.
+
+4. Beginner-Friendly Requirements
+Only basic Python skills and sophomore-level knowledge required.
+Taught in English by Meta and Google engineers, with J.P. Morgan Al engineers as TAs—pure content, no fluff.
+
+5. Explosive Salary Potential
+Junior Al roles typically start at $140K-$160K USD/year—insane ROI compared to any other field.
+
+One-of-a-Kind Access to Real Industry Partners
+Our GPU infrastructure is the official supplier for Al undergraduate programs at Stanford and UPenn.
+UPenn’s Al course—known globally—charges $15,000 USD for a single term. You get more, for far less.
+
+
+Why Us?
+
+Built by Engineers. Backed by Industry. Shaped by Student Experience.
+
+Ol 02 O3
+
+Silicon Valley Roots Trusted by Top Schools Powered by Our GPUs
+Being based in Silicon Valley, We've worked with students from As a cloud GPU provider, we
+We have the network, UPenn, Stanford, and Waterloo — give students access to the
+firsthand knowledge, and and we've seen firsthand how even latest high-performance GPUs
+technical resources to design top CS students are struggling to used by top Al teams — so they
+a program that reflects what's bridge the gap between theory can train, fine-tune, and deploy
+actually being used — not just and practice. real-world projects.
+
+what's being taught.
+
+6 Stanford ZPenn  BY WATERLGO
+
+
+Silicon Valley Al Internship Program
+
+School-Enterprise Collaboration | Direct Path to Employment
+
+New Cohort Starts: July 21 (Monday), 8 -9:30 PM Toronto Time ‘b
+
+Live Online Classes | Weekly Monday Evenings ‘
+Total: 15 hours of instruction over 10 weeks
+
+Full class replays provided
+
+Weekly: 1 -2 hours of class, 2-3 hours of assignments, with TA Q&A support
+200-Hour Internship Starts Week 5
+
+Project 1: Al Agent — Build a Voice/Customer Support Assistant
+
+Project 2: Train a Large Language Model (LLM) from Scratch
+
+Course Price: CAD $3999 + tax
+
+Early Bird Offer (First 3 Sign—ups Today) : CAD $2999 + tax
+
+Global Discounted Price: CAD $3388 incl. tax / USD $2480
+Save $1000
+
+Program Lead: Charlene
+Inquiries & Registration
+WeChat ID: vicxbk?2
+Phone: 416-665-1888
+
+%‘ﬁﬁ!
+
+
+
+How to Register and Pay
+
+Credit Card (Remote): Please call 416-665-1888
+
+E-Transfer (Canada only) : Send to mariasun@viccol lege. com
+
+Program Lead: Charlene
+Inquiries & Registration
+WeChat ID: vicxbk?2
+Phone: 416-665-1888
+
+%‘e*séﬁé
+
+
+
