@@ -1,0 +1,5 @@
+yt-dlp
+openai-whisper
+pytesseract
+opencv-python
+ffmpeg-python
