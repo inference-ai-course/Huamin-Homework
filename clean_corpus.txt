@@ -1,0 +1,5 @@
+BockForwardtesseract-5.5.0 view GroupBy view GroupBy Share GroupBy Share Edit Share Edit Tags Edit Tags Action Tags Action Search
+1 appeyorymi November appeyorymi November 10, November 10, 2024 10, 2024 at 2024 at 14:23 at 14:23 2Kk8 14:23 2Kk8 YAML
+AUTHORS November 10, November 10, 2024 10, 2024 at 2024 at 14:23 at 14:23 787 14:23 787 bytes 787 bytes Document
+. autogen.sh November autogen.sh November 10, November 10, 2024 10, 2024 at 2024 at 14:23 at 14:23 4K8 14:23 4K8 shellscript
+CITATIONS bib November bib November 10, November 10, 2024 10, 2024 at 2024 at 14:23 at 14:23 3KB 14:23 3KB Document
