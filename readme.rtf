@@ -1,0 +1,57 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2639
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 PingFangSC-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 voice_assistant/\
+
+\f1 \'a9\'c0
+\f0 \uc0\u9472 \u9472  main.py                  # FastAPI 
+\f1 \'d6\'f7\'b3\'cc\'d0\'f2
+\f0 \
+
+\f1 \'a9\'c0
+\f0 \uc0\u9472 \u9472  asr_module.py            # 
+\f1 \'d3\'ef\'d2\'f4\'ca\'b6\'b1\'f0\'c4\'a3\'bf\'e9\'a3\'a8
+\f0 Whisper
+\f1 \'a3\'a9
+\f0 \
+
+\f1 \'a9\'c0
+\f0 \uc0\u9472 \u9472  llm_module.py            # 
+\f1 \'ce\'c4\'b1\'be\'c9\'fa\'b3\'c9\'c4\'a3\'bf\'e9\'a3\'a8
+\f0 LLaMA 3
+\f1 \'a3\'a9
+\f0 \
+
+\f1 \'a9\'c0
+\f0 \uc0\u9472 \u9472  tts_module.py            # 
+\f1 \'d3\'ef\'d2\'f4\'ba\'cf\'b3\'c9\'c4\'a3\'bf\'e9\'a3\'a8
+\f0 CozyVoice
+\f1 \'a3\'a9
+\f0 \
+
+\f1 \'a9\'c0
+\f0 \uc0\u9472 \u9472  requirements.txt         # 
+\f1 \'cb\'f9\'d0\'e8\'d2\'c0\'c0\'b5
+\f0 \
+\uc0\u9492 \u9472 \u9472  temp/                    # 
+\f1 \'c1\'d9\'ca\'b1\'b4\'e6\'b4\'a2\'d2\'f4\'c6\'b5\'ce\'c4\'bc\'fe\'a3\'a8\'bf\'c9\'d1\'a1\'a3\'a9
+\f0 \
+\
+
+\f1 \'c6\'f4\'b6\'af\'b7\'fe\'ce\'f1\'a3\'ba
+\f0 \
+uvicorn main:app --reload\
+\
+
+\f1 \'b2\'e2\'ca\'d4\'bd\'d3\'bf\'da\'a3\'ba\
+\'ca\'b9\'d3\'c3curl\
+\
+curl -X POST "http://localhost:8000/chat/" \\\
+  -H "accept: audio/wav" \\\
+  -H "Content-Type: multipart/form-data" \\\
+  -F "file=@sample.wav" --output reply.wav\
+}
