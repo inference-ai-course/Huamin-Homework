@@ -1,0 +1,17 @@
+(ai-sft) jianghm@Huamins-MacBook-Pro week6 % curl -X POST "http://localhost:8000/api/reset-conversation/"
+{"status":"conversation reset"}%                                     
+
+(ai-sft) jianghm@Huamins-MacBook-Pro week6 % curl -X POST "http://localhost:8000/api/text-query/" \
+-H "Content-Type: application/json" \
+-d '{"text": "Calculate 2 to the power of 8"}'
+{"text_response":"The result of 2**8 is 256","audio_url":"/temp_audio/response_367c51da4baa42ac9f0b4370acd3a573.wav","is_function_call":true,"function_call":{"function":"calculate","arguments":{"expression":"2**8"}}}%                                                           
+
+(ai-sft) jianghm@Huamins-MacBook-Pro week6 % curl -X POST "http://localhost:8000/api/text-query/" \
+-H "Content-Type: application/json" \
+-d '{"text": "Search for quantum computing papers"}'
+{"text_response":"Found papers on quantum computing: 'Quantum Algorithms for Machine Learning' (2023), 'Advances in Quantum Neural Networks' (2024)","audio_url":"/temp_audio/response_f647bbf876424ada93272f8382a2bdcc.wav","is_function_call":true,"function_call":{"function":"search_arxiv","arguments":{"query":"quantum computing"}}}%             
+
+(ai-sft) jianghm@Huamins-MacBook-Pro week6 % curl -X POST "http://localhost:8000/api/text-query/" \
+-H "Content-Type: application/json" \
+-d '{"text": "Hello"}'
+{"text_response":"Hello! How can I help you today?","audio_url":"/temp_audio/response_c4cf60cf88b84282975aa24236a6f5e7.wav","is_function_call":false,"function_call":null}%  
