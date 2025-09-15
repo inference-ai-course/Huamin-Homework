@@ -1,0 +1,184 @@
+(sft-env) jianghm@Huamins-MacBook-Pro week7 % /Users/jianghm/MLE_Training/week7/sft-env/bin/python /Users/jianghm/MLE_
+Training/week7/class7_1.py
+✅ TRL library loaded successfully
+✅ Gradio library loaded successfully
+🎯 COMPREHENSIVE ALIGNMENT COMPARISON - CLASS 7
+================================================================================
+🚀 Educational Implementation: PPO vs DPO vs GRPO
+🎓 Focus: Concepts, Implementation, and Comparison
+📚 Works without Ollama - Perfect for Learning
+================================================================================
+🎯 ALIGNMENT COMPARISON MANAGER - CLASS 7
+📱 Device: mps
+🔑 OpenAI API: ✅ Available
+🤖 Base Model: gpt2
+🚀 Focus: PPO vs DPO vs GRPO Educational Comparison
+================================================================================
+
+📚 STEP 1: LOADING PREFERENCE DATASETS
+Creating comprehensive preference data for alignment training...
+  📥 Attempting to load real preference datasets...
+  ✅ Loaded 10 samples from HH-RLHF
+📊 Total datasets available: 2
+
+🎨 STEP 2: CREATING ANNOTATION PLATFORM
+Building preference annotation interface...
+🎨 Annotation platform created!
+
+🔧 STEP 3: PREPARING ALIGNMENT DATASETS
+Converting data for PPO, DPO, and GRPO training...
+  📊 Processing comprehensive_preferences (5 samples)...
+  📊 Processing hh_rlhf (10 samples)...
+  ✅ Created datasets - DPO: 5, PPO: 5, GRPO: 5
+
+🔧 STEP 4: SETTING UP MODELS
+Loading and configuring models for alignment training...
+🔄 Loading distilgpt2...
+INFO:httpx:HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+`torch_dtype` is deprecated! Use `dtype` instead!
+'NoneType' object has no attribute 'cadam32bit_grad_fp32'
+trainable params: 147,456 || all params: 82,060,032 || trainable%: 0.1797
+✅ Successfully loaded distilgpt2
+
+🎯 STEP 5: DEMONSTRATING ALIGNMENT METHODS
+Implementing PPO, DPO, and GRPO concepts...
+⚠️  NOTE: This includes ACTUAL TRAINING - models will be updated
+⚠️  Training is limited to demo purposes (few epochs/steps)
+  🔧 Preparing datasets for training...
+  ✅ Prepared 3 datasets for training
+
+🟡 PPO (Proximal Policy Optimization):
+  🎯 Uses reward model and value function
+  📊 Formula: L_PPO = min(r_t(θ)A_t, clip(r_t(θ), 1-ε, 1+ε)A_t)
+  🔄 Requires: Policy + Value + Reward + Reference models
+  🚀 Starting PPO training with simplified implementation...
+`loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+    📊 PPO Step 0: Loss = 3.9193
+    📊 PPO Step 1: Loss = 3.3954
+    📊 PPO Step 2: Loss = 3.6137
+  ✅ PPO training completed successfully!
+    📊 Final loss: 3.6137
+    📊 Training steps: 3
+
+🟢 DPO (Direct Preference Optimization):
+  🎯 Direct preference optimization without reward model
+  📊 Formula: L_DPO = -log(σ(β * preference_diff))
+  ✨ Simpler than PPO, often better results
+  🚀 Starting DPO training with simplified implementation...
+    📊 DPO Step 0: Loss = 0.7044 (chosen: 3.8492, rejected: 3.6260)
+    📊 DPO Step 1: Loss = 0.7297 (chosen: 3.7831, rejected: 3.0641)
+    📊 DPO Step 2: Loss = 0.7030 (chosen: 3.4556, rejected: 3.2605)
+  ✅ DPO training completed successfully!
+    📊 Final loss: 0.7030
+    📊 Training steps: 3
+  💾 DPO model saved successfully!
+
+🟣 GRPO (Group Relative Policy Optimization):
+  🎯 Group-wise comparisons for relative ranking
+  📊 Formula: Advantage = (reward - group_mean) / group_std
+  🚀 More sample efficient than traditional RL
+  🚀 Starting GRPO training with simplified implementation...
+    📊 GRPO Step 0: Loss = 4.7591 (advantage: 3.210)
+    📊 GRPO Step 1: Loss = 4.4447 (advantage: 4.332)
+    📊 GRPO Step 2: Loss = 3.2289 (advantage: 1.043)
+  ✅ GRPO training completed successfully!
+    📊 Final loss: 3.2289
+    📊 Training steps: 3
+    📊 Group size: 4
+  💾 GRPO model saved successfully!
+
+✅ All alignment methods training completed!
+============================================================
+  • PPO: ✅ Trained (3 steps, final loss: 3.6137)
+  • DPO: ✅ Trained (3 steps, final loss: 0.7030)
+  • GRPO: ✅ Trained (3 steps, final loss: 3.2289)
+============================================================
+
+📊 STEP 6: EVALUATING ALIGNMENT METHODS
+Comparing method performance across domains...
+  🤖 Evaluating trained models...
+    🔄 Loading DPO trained model...
+    ✅ Generated 5 responses from DPO
+    🔄 Loading GRPO trained model...
+    ✅ Generated 5 responses from GRPO
+  📝 DPO: Average score 0.440
+  📝 GRPO: Average score 0.480
+
+🎮 STEP 7: CREATING COMPARISON DEMO
+Building method comparison interface...
+🎮 Comparison demo created!
+
+📋 STEP 8: GENERATING COMPREHENSIVE REPORT
+Creating detailed analysis and recommendations...
+✅ Comprehensive report generated!
+
+================================================================================
+🧪 RUNNING COMPREHENSIVE TRAINING TEST
+================================================================================
+
+🧪 COMPREHENSIVE TRAINING TEST
+Testing all alignment methods with simplified implementations...
+  🔧 Preparing datasets for training...
+  ✅ Prepared 3 datasets for training
+
+🟡 Testing PPO (Simplified Implementation):
+    📊 PPO Step 0: Loss = 3.8777
+    📊 PPO Step 1: Loss = 3.2308
+    📊 PPO Step 2: Loss = 3.5967
+  ✅ PPO Status: trained_successfully
+
+🟢 Testing DPO (Simplified Implementation):
+    📊 DPO Step 0: Loss = 0.7121 (chosen: 3.9052, rejected: 3.5300)
+    📊 DPO Step 1: Loss = 0.7295 (chosen: 3.7420, rejected: 3.0282)
+INFO:httpx:HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+    📊 DPO Step 2: Loss = 0.7092 (chosen: 3.3758, rejected: 3.0580)
+  ✅ DPO Status: trained_successfully
+
+🟣 Testing GRPO (Simplified Implementation):
+    📊 GRPO Step 0: Loss = 5.4993 (advantage: 5.326)
+    📊 GRPO Step 1: Loss = 3.9687 (advantage: 2.433)
+    📊 GRPO Step 2: Loss = 4.7474 (advantage: 3.613)
+  ✅ GRPO Status: trained_successfully
+
+💾 STEP 9: SAVING RESULTS
+Saving all artifacts and analysis...
+✅ All results saved!
+
+✅ ALIGNMENT COMPARISON COMPLETE!
+================================================================================
+✅ Methods demonstrated: PPO, DPO, GRPO
+✅ Base model: gpt2
+✅ Datasets processed: 2
+✅ Evaluation completed: ✅
+✅ Interactive demos: ✅
+✅ Training test: ✅
+================================================================================
+
+🧪 TRAINING TEST RESULTS:
+  • PPO: ✅ Trained successfully (3 steps, final loss: 3.5967)
+  • DPO: ✅ Trained successfully (3 steps, final loss: 0.7092)
+  • GRPO: ✅ Trained successfully (3 steps, final loss: 4.7474)
+================================================================================
+🎓 Learning Outcomes:
+  • Understanding of PPO, DPO, and GRPO concepts
+  • Hands-on preference data collection
+  • Method comparison and evaluation
+  • Interactive demonstration tools
+  • Best practice recommendations
+================================================================================
+
+🏆 BEST METHOD: GRPO
+📊 Score: 0.480
+
+💡 Key Insights:
+  • DPO provides best balance of performance and simplicity
+  • GRPO shows promise for complex reasoning tasks
+  • PPO remains essential for safety-critical applications
+  • Base models lack consistency for production use
+
+🚀 To launch demos:
+  annotation_demo.launch()  # Preference collection
+  comparison_demo.launch()  # Method comparison
+
+🎉 SUCCESS! Class 7 completed successfully!
+📊 Best method: grpo
