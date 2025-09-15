@@ -1,0 +1,16 @@
+{
+  "total_papers_available": 10,
+  "total_qa_pairs_generated": 6,
+  "model_training_info": {
+    "status": "error",
+    "message": "No GPU available"
+  },
+  "evaluation_summary": {
+    "questions_tested": 5,
+    "improvements_noted": 5
+  },
+  "config": {
+    "papers_processed": 10,
+    "qa_per_paper": 3
+  }
+}

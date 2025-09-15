@@ -1,0 +1,7 @@
+{
+  "model_name": "llama3-7b-academic-qa",
+  "training_samples": 150,
+  "epochs": 2,
+  "status": "success",
+  "message": "模拟训练完成"
+}

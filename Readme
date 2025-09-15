@@ -1,2 +1,19 @@
-ML Engineering training
-Weekly Homework
+整个project按照功能分成以下几个模块，并使用main.py进行协调执行：
+1. project_config.py：项目配置文件，包含数据路径、模型路径、API密钥等配置信息。
+2. data_preparation.py：数据准备模块，负责加载和预处理数据。
+3. qa_generator.py - 问答对生成模块
+4. data_formatter.py - 数据格式化模块
+5. model_trainer.py - 模型训练模块
+6. evaluator.py - 评估模块
+7. main.py - 主程序，协调各个模块的执行流程
+
+8. Week4-homework.py - week4作业，下载论文，提取，Chunking，embedding，创建FAISS索引
+
+输出文件:
+
+arxiv_texts/ - 提取的论文文本
+synthetic_qa_data.json - 生成的问答对
+synthetic_qa.jsonl - 格式化后的训练数据
+model_info.json - 模型训练信息
+evaluation_results.json - 评估结果
+summary_report.json - 总结报告

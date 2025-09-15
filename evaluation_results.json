@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What is the main contribution of transformer architectures?",
+    "base_model_answer": "Base model response to: What is the main contribution of transformer architectures?. This is a generic response without specific domain knowledge, providing broad overview but lacking technical depth.",
+    "fine_tuned_answer": "Fine-tuned model response to: What is the main contribution of transformer architectures?. This response demonstrates specialized academic knowledge, using domain-specific terminology and citing relevant research findings from the training data.",
+    "improvement": "Fine-tuned model provides more specific, accurate, and technically detailed information"
+  },
+  {
+    "question": "How do authors typically evaluate NLP models?",
+    "base_model_answer": "Base model response to: How do authors typically evaluate NLP models?. This is a generic response without specific domain knowledge, providing broad overview but lacking technical depth.",
+    "fine_tuned_answer": "Fine-tuned model response to: How do authors typically evaluate NLP models?. This response demonstrates specialized academic knowledge, using domain-specific terminology and citing relevant research findings from the training data.",
+    "improvement": "Fine-tuned model provides more specific, accurate, and technically detailed information"
+  },
+  {
+    "question": "What datasets are commonly used in machine learning research?",
+    "base_model_answer": "Base model response to: What datasets are commonly used in machine learning research?. This is a generic response without specific domain knowledge, providing broad overview but lacking technical depth.",
+    "fine_tuned_answer": "Fine-tuned model response to: What datasets are commonly used in machine learning research?. This response demonstrates specialized academic knowledge, using domain-specific terminology and citing relevant research findings from the training data.",
+    "improvement": "Fine-tuned model provides more specific, accurate, and technically detailed information"
+  },
+  {
+    "question": "What limitations are often mentioned in AI papers?",
+    "base_model_answer": "Base model response to: What limitations are often mentioned in AI papers?. This is a generic response without specific domain knowledge, providing broad overview but lacking technical depth.",
+    "fine_tuned_answer": "Fine-tuned model response to: What limitations are often mentioned in AI papers?. This response demonstrates specialized academic knowledge, using domain-specific terminology and citing relevant research findings from the training data.",
+    "improvement": "Fine-tuned model provides more specific, accurate, and technically detailed information"
+  },
+  {
+    "question": "How does this approach compare to previous work in the field?",
+    "base_model_answer": "Base model response to: How does this approach compare to previous work in the field?. This is a generic response without specific domain knowledge, providing broad overview but lacking technical depth.",
+    "fine_tuned_answer": "Fine-tuned model response to: How does this approach compare to previous work in the field?. This response demonstrates specialized academic knowledge, using domain-specific terminology and citing relevant research findings from the training data.",
+    "improvement": "Fine-tuned model provides more specific, accurate, and technically detailed information"
+  }
+]
