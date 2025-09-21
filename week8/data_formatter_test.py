@@ -1,4 +1,4 @@
-# data_formatter.py
+# data_formatter-test.py, Deepseek
 import json
 
 # 假设您已经将标注数据加载到 summary_pairs 变量中
